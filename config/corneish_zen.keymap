@@ -17,6 +17,7 @@
         sy_combo_right {
             bindings = <&kp Y>;
             key-positions = <39 22>;
+            layers = <0>;
         };
 
         tp_combo_right {
@@ -104,7 +105,7 @@
         };
 
         ten_combo_right {
-            bindings = <&kp RET>;
+            bindings = <&kp RETURN>;
             key-positions = <39 11>;
             layers = <0>;
         };
