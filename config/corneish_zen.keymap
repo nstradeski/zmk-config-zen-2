@@ -101,7 +101,6 @@
         uz_combo_right {
             bindings = <&kp Z>;
             key-positions = <39 30>;
-            layers = <0>;
         };
 
         ten_combo_right {
