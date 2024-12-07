@@ -44,67 +44,8 @@
             layers = <0>;
         };
 
-        fj_combo_right {
-            bindings = <&kp J>;
-            key-positions = <10 39>;
-            layers = <0>;
-        };
-
-        dk_combo_right {
-            bindings = <&kp K>;
-            key-positions = <9 39>;
-            layers = <0>;
-        };
-
-        nm_combo_right {
-            bindings = <&kp M>;
-            key-positions = <8 39>;
-            layers = <0>;
-        };
-
-        iq_combo_right {
-            bindings = <&kp SQT>;
-            key-positions = <7 39>;
-            layers = <0>;
-        };
-
-        gm_combo_right {
-            bindings = <&kp MINUS>;
-            key-positions = <39 6>;
-            layers = <0>;
-        };
-
-        cx_combo_right {
-            bindings = <&kp X>;
-            key-positions = <39 34>;
-            layers = <0>;
-        };
-
-        wb_combo_right {
-            bindings = <&kp B>;
-            key-positions = <39 33>;
-            layers = <0>;
-        };
-
-        rv_combo_right {
-            bindings = <&kp V>;
-            key-positions = <39 32>;
-            layers = <0>;
-        };
-
-        ac_combo_right {
-            bindings = <&kp COMMA>;
-            key-positions = <39 31>;
-            layers = <0>;
-        };
-
-        uz_combo_right {
-            bindings = <&kp Z>;
-            key-positions = <39 30>;
-        };
-
-        ten_combo_right {
-            bindings = <&kp RETURN>;
+        combo_test {
+            bindings = <&kp E>;
             key-positions = <39 11>;
             layers = <0>;
         };
