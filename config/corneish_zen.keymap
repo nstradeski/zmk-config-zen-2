@@ -39,14 +39,8 @@
         };
 
         oq_combo_right {
-            bindings = <&kp Q>;
+            bindings = <&kp RETURN>;
             key-positions = <39 18>;
-            layers = <0>;
-        };
-
-        combo_test {
-            bindings = <&kp E>;
-            key-positions = <39 11>;
             layers = <0>;
         };
     };
