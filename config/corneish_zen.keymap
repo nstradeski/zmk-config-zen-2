@@ -18,6 +18,11 @@
             bindings = <&kp E>;
             key-positions = <39 18>;
         };
+
+        combo_test_2 {
+            bindings = <&kp X>;
+            key-positions = <6 39>;
+        };
     };
 
     keymap {
