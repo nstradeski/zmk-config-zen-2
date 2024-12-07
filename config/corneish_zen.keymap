@@ -11,13 +11,12 @@
 };
 
 / {
- combos {
+    combos {
         compatible = "zmk,combos";
 
         sy_combo_right {
             bindings = <&kp Y>;
             key-positions = <39 22>;
-            layers = <0>;
         };
 
         tp_combo_right {
@@ -110,7 +109,6 @@
             layers = <0>;
         };
     };
-
 
     keymap {
         compatible = "zmk,keymap";
