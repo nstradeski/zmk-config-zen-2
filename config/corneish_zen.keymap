@@ -14,34 +14,9 @@
     combos {
         compatible = "zmk,combos";
 
-        sy_combo_right {
-            bindings = <&kp Y>;
-            key-positions = <39 22>;
-            layers = <0>;
-        };
-
-        tp_combo_right {
-            bindings = <&kp P>;
-            key-positions = <39 21>;
-            layers = <0>;
-        };
-
-        hl_combo_right {
-            bindings = <&kp L>;
-            key-positions = <39 20>;
-            layers = <0>;
-        };
-
-        ed_combo_right {
-            bindings = <&kp PERIOD>;
-            key-positions = <39 19>;
-            layers = <0>;
-        };
-
-        oq_combo_right {
-            bindings = <&kp RETURN>;
+        combo_test {
+            bindings = <&kp E>;
             key-positions = <39 18>;
-            layers = <0>;
         };
     };
 
