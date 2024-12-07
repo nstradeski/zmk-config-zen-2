@@ -11,207 +11,13 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        sy_combo_left {
-            bindings = <&kp Y>;
-            key-positions = <13 38>;
-            layers = <0>;
-        };
-
-        sy_combo_right {
-            bindings = <&kp Y>;
-            key-positions = <39 22>;
-            layers = <0>;
-        };
-
-        tp_combo_left {
-            bindings = <&kp P>;
-            key-positions = <14 38>;
-            layers = <0>;
-        };
-
-        tp_combo_right {
-            bindings = <&kp P>;
-            key-positions = <39 21>;
-            layers = <0>;
-        };
-
-        hl_combo_left {
-            bindings = <&kp L>;
-            key-positions = <38 15>;
-            layers = <0>;
-        };
-
-        hl_combo_right {
-            bindings = <&kp L>;
-            key-positions = <39 20>;
-            layers = <0>;
-        };
-
-        ed_combo_left {
-            bindings = <&kp PERIOD>;
-            key-positions = <38 16>;
-            layers = <0>;
-        };
-
-        ed_combo_right {
-            bindings = <&kp PERIOD>;
-            key-positions = <39 19>;
-            layers = <0>;
-        };
-
-        oq_combo_left {
-            bindings = <&kp Q>;
-            key-positions = <38 17>;
-            layers = <0>;
-        };
-
-        oq_combo_right {
-            bindings = <&kp Q>;
-            key-positions = <39 18>;
-            layers = <0>;
-        };
-
-        fj_combo_left {
-            bindings = <&kp J>;
-            key-positions = <38 1>;
-            layers = <0>;
-        };
-
-        fj_combo_right {
-            bindings = <&kp J>;
-            key-positions = <10 39>;
-            layers = <0>;
-        };
-
-        dk_combo_left {
-            bindings = <&kp K>;
-            key-positions = <38 2>;
-            layers = <0>;
-        };
-
-        dk_combo_right {
-            bindings = <&kp K>;
-            key-positions = <9 39>;
-            layers = <0>;
-        };
-
-        nm_combo_left {
-            bindings = <&kp M>;
-            key-positions = <38 3>;
-            layers = <0>;
-        };
-
-        nm_combo_right {
-            bindings = <&kp M>;
-            key-positions = <8 39>;
-            layers = <0>;
-        };
-
-        iq_combo_left {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <38 4>;
-            layers = <0>;
-        };
-
-        iq_combo_right {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <7 39>;
-            layers = <0>;
-        };
-
-        gm_combo_left {
-            bindings = <&kp MINUS>;
-            key-positions = <38 5>;
-            layers = <0>;
-        };
-
-        gm_combo_right {
-            bindings = <&kp MINUS>;
-            key-positions = <39 6>;
-            layers = <0>;
-        };
-
-        cx_combo_left {
-            bindings = <&kp X>;
-            key-positions = <38 25>;
-            layers = <0>;
-        };
-
-        cx_combo_right {
-            bindings = <&kp X>;
-            key-positions = <39 34>;
-            layers = <0>;
-        };
-
-        wb_combo_left {
-            bindings = <&kp B>;
-            key-positions = <38 26>;
-            layers = <0>;
-        };
-
-        wb_combo_right {
-            bindings = <&kp B>;
-            key-positions = <39 33>;
-            layers = <0>;
-        };
-
-        rv_combo_left {
-            bindings = <&kp V>;
-            key-positions = <38 27>;
-            layers = <0>;
-        };
-
-        rv_combo_right {
-            bindings = <&kp V>;
-            key-positions = <39 32>;
-            layers = <0>;
-        };
-
-        ac_combo_left {
-            bindings = <&kp COMMA>;
-            key-positions = <38 28>;
-            layers = <0>;
-        };
-
-        ac_combo_right {
-            bindings = <&kp COMMA>;
-            key-positions = <39 31>;
-            layers = <0>;
-        };
-
-        uz_combo_left {
-            bindings = <&kp Z>;
-            key-positions = <38 29>;
-            layers = <0>;
-        };
-
-        uz_combo_right {
-            bindings = <&kp Z>;
-            key-positions = <39 30>;
-            layers = <0>;
-        };
-
-        ten_combo_left {
-            bindings = <&kp ENTER>;
-            key-positions = <38 0>;
-            layers = <0>;
-        };
-
-        ten_combo_right {
-            bindings = <&kp ENTER>;
-            key-positions = <39 11>;
-            layers = <0>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
 
-        frog {
-            label = "FROG";
+        alpha_1 {
+            label = "ALPHA I";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
@@ -220,11 +26,22 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE       &kp F  &kp D  &kp N  &kp I  &kp G        &kp G      &kp I  &kp N  &kp D  &kp F  &kp ESCAPE
-&lt 3 BACKSPACE  &kp S  &kp T  &kp H  &kp E  &kp O        &kp O      &kp E  &kp H  &kp T  &kp S  &lt 3 BACKSPACE
-&kp LSHFT        &kp C  &kp W  &kp R  &kp A  &kp U        &kp U      &kp A  &kp R  &kp W  &kp C  &kp RIGHT_SHIFT
-                               &mo 1  &mo 2  &kp SPACE    &kp SPACE  &mo 2  &mo 1
+&none  &none  &none  &none  &none  &none    &kp G      &kp I  &kp N  &kp D  &kp F  &kp ESCAPE
+&none  &none  &none  &none  &none  &none    &kp O      &kp E  &kp H  &kp T  &kp S  &lt 4 BACKSPACE
+&none  &none  &none  &none  &none  &none    &kp U      &kp A  &kp R  &kp W  &kp C  &kp RIGHT_SHIFT
+                     &none  &none  &none    &kp SPACE  &mo 3  &mo 2
             >;
+        };
+
+        alpha_2 {
+            bindings = <
+&none  &none   &none  &none  &none  &none    &kp MINUS  &kp SQT     &kp M  &kp K  &kp J  &kp RET
+&none  &trans  &none  &none  &none  &none    &kp Q      &kp PERIOD  &kp L  &kp P  &kp Y  &kp BACKSPACE
+&none  &none   &none  &none  &none  &none    &kp Z      &kp COMMA   &kp V  &kp B  &kp X  &kp RIGHT_SHIFT
+                      &none  &none  &none    &none      &none       &none
+            >;
+
+            label = "ALPHA II";
         };
 
         number {
@@ -237,10 +54,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp EQUAL  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp DOT      &kp DOT    &kp NUMBER_9  &kp N8        &kp N7        &kp NUMBER_6  &kp EQUAL
-&kp PLUS   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5       &kp N5     &kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp PLUS
-&kp MINUS  &kp HASH      &kp DOLLAR    &kp PERCENT   &kp N0        &kp COMMA    &kp COMMA  &kp N0        &kp PERCENT   &kp DOLLAR    &kp HASH      &kp MINUS
-                                       &none         &none         &none        &none      &none         &none
+&none  &none  &none  &none  &none  &none    &kp DOT    &kp NUMBER_9  &kp N8        &kp N7        &kp NUMBER_6  &kp EQUAL
+&none  &none  &none  &none  &none  &none    &kp N5     &kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp PLUS
+&none  &none  &none  &none  &none  &none    &kp COMMA  &kp N0        &kp PERCENT   &kp DOLLAR    &kp HASH      &kp MINUS
+                     &none  &none  &none    &none      &none         &none
             >;
         };
 
@@ -254,19 +71,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB        &kp LEFT_BRACKET   &kp LBRC       &kp LPAR               &kp AT           &kp CARET       &kp CARET     &kp AT           &kp LPAR               &kp LBRC       &kp LEFT_BRACKET   &kp TAB
-&kp BACKSLASH  &kp COLON          &kp SEMICOLON  &kp QUESTION           &kp EXCLAMATION  &kp SLASH       &kp SLASH     &kp EXCLAMATION  &kp QUESTION           &kp SEMICOLON  &kp COLON          &kp BACKSLASH
-&kp TILDE      &kp RIGHT_BRACKET  &kp RBRC       &kp RIGHT_PARENTHESIS  &kp AMPS         &kp ASTERISK    &kp ASTERISK  &kp AMPERSAND    &kp RIGHT_PARENTHESIS  &kp RBRC       &kp RIGHT_BRACKET  &kp TILDE
-                                                 &none                  &none            &none           &none         &none            &none
+&none  &none  &none  &none  &none  &none    &kp CARET     &kp AT           &kp LPAR               &kp LBRC       &kp LEFT_BRACKET   &kp TAB
+&none  &none  &none  &none  &none  &none    &kp SLASH     &kp EXCLAMATION  &kp QUESTION           &kp SEMICOLON  &kp COLON          &kp BACKSLASH
+&none  &none  &none  &none  &none  &none    &kp ASTERISK  &kp AMPERSAND    &kp RIGHT_PARENTHESIS  &kp RBRC       &kp RIGHT_BRACKET  &kp TILDE
+                     &none  &none  &none    &none         &none            &none
             >;
         };
 
         navigation {
             bindings = <
-&bt BT_CLR  &kp K_BACK       &kp HOME        &kp UP_ARROW    &kp END          &kp K_FORWARD        &kp K_BACK         &kp HOME        &kp UP_ARROW    &kp END          &kp K_FORWARD    &bt BT_CLR
-&trans      &kp LC(LA(TAB))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DELETE           &kp DELETE         &kp LEFT_ARROW  &kp DOWN        &kp RIGHT_ARROW  &kp LC(LA(TAB))  &trans
-&bt BT_NXT  &kp LC(Z)        &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LEFT_ALT         &kp LEFT_ALT       &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)        &bt BT_NXT
-                                             &kp LEFT_SHIFT  &kp LCTRL        &kp LC(BACKSPACE)    &kp LC(BACKSPACE)  &kp LCTRL       &kp LEFT_SHIFT
+&none  &none  &none  &none  &none  &none    &kp C_REWIND       &kp HOME        &kp UP_ARROW    &kp END          &kp C_FAST_FORWARD  &bt BT_CLR
+&none  &none  &none  &none  &none  &none    &kp DELETE         &kp LEFT_ARROW  &kp DOWN        &kp RIGHT_ARROW  &kp LC(LA(TAB))     &trans
+&none  &none  &none  &none  &none  &none    &kp LEFT_ALT       &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)           &bt BT_NXT
+                     &none  &none  &none    &kp LC(BACKSPACE)  &kp LCTRL       &kp LEFT_SHIFT
             >;
 
             label = "NAV";
