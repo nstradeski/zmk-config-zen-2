@@ -15,78 +15,99 @@
         compatible = "zmk,combos";
 
         sy_combo {
-            bindings = <&kp S>;
+            bindings = <&kp Y>;
             key-positions = <39 22>;
+            layers = <0>;
         };
 
         tp_combo {
             bindings = <&kp P>;
             key-positions = <39 21>;
+            layers = <0>;
         };
 
         hl_combo {
             bindings = <&kp L>;
             key-positions = <39 20>;
+            layers = <0>;
         };
 
         ed_combo {
             bindings = <&kp DOT>;
             key-positions = <39 19>;
+            layers = <0>;
         };
 
         oq_combo {
             bindings = <&kp Q>;
             key-positions = <39 18>;
+            layers = <0>;
         };
 
         fj_combo {
             bindings = <&kp J>;
             key-positions = <39 10>;
+            layers = <0>;
         };
 
         dk_combo {
             bindings = <&kp K>;
             key-positions = <39 9>;
+            layers = <0>;
         };
 
         nm_combo {
             bindings = <&kp M>;
             key-positions = <39 8>;
+            layers = <0>;
         };
 
         iq_combo {
             bindings = <&kp SQT>;
             key-positions = <39 7>;
+            layers = <0>;
         };
 
         gm_combo {
             bindings = <&kp MINUS>;
             key-positions = <39 6>;
+            layers = <0>;
         };
 
         cx_combo {
             bindings = <&kp X>;
             key-positions = <39 34>;
+            layers = <0>;
         };
 
         wb_combo {
             bindings = <&kp B>;
             key-positions = <39 33>;
+            layers = <0>;
         };
 
         rv_combo {
             bindings = <&kp V>;
             key-positions = <39 32>;
+            layers = <0>;
         };
 
         ac_combo {
             bindings = <&kp COMMA>;
             key-positions = <39 31>;
+            layers = <0>;
         };
 
         uz_combo {
             bindings = <&kp Z>;
             key-positions = <39 30>;
+            layers = <0>;
+        };
+
+        ten_combo {
+            bindings = <&kp RET>;
+            key-positions = <39 11>;
+            layers = <0>;
         };
     };
 
