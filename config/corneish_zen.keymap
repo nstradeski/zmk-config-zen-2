@@ -14,14 +14,79 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_test {
-            bindings = <&kp E>;
+        sy_combo {
+            bindings = <&kp S>;
+            key-positions = <39 22>;
+        };
+
+        tp_combo {
+            bindings = <&kp P>;
+            key-positions = <39 21>;
+        };
+
+        hl_combo {
+            bindings = <&kp L>;
+            key-positions = <39 20>;
+        };
+
+        ed_combo {
+            bindings = <&kp DOT>;
+            key-positions = <39 19>;
+        };
+
+        oq_combo {
+            bindings = <&kp Q>;
             key-positions = <39 18>;
         };
 
-        combo_test_2 {
+        fj_combo {
+            bindings = <&kp J>;
+            key-positions = <39 10>;
+        };
+
+        dk_combo {
+            bindings = <&kp K>;
+            key-positions = <39 9>;
+        };
+
+        nm_combo {
+            bindings = <&kp M>;
+            key-positions = <39 8>;
+        };
+
+        iq_combo {
+            bindings = <&kp SQT>;
+            key-positions = <39 7>;
+        };
+
+        gm_combo {
+            bindings = <&kp MINUS>;
+            key-positions = <39 6>;
+        };
+
+        cx_combo {
             bindings = <&kp X>;
-            key-positions = <6 39>;
+            key-positions = <39 34>;
+        };
+
+        wb_combo {
+            bindings = <&kp B>;
+            key-positions = <39 33>;
+        };
+
+        rv_combo {
+            bindings = <&kp V>;
+            key-positions = <39 32>;
+        };
+
+        ac_combo {
+            bindings = <&kp COMMA>;
+            key-positions = <39 31>;
+        };
+
+        uz_combo {
+            bindings = <&kp Z>;
+            key-positions = <39 30>;
         };
     };
 
