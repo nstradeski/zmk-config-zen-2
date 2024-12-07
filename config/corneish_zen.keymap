@@ -26,10 +26,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp G      &kp I  &kp N  &kp D  &kp F  &kp ESCAPE
-&none  &none  &none  &none  &none  &none    &kp O      &kp E  &kp H  &kp T  &kp S  &lt 4 BACKSPACE
-&none  &none  &none  &none  &none  &none    &kp U      &kp A  &kp R  &kp W  &kp C  &kp RIGHT_SHIFT
-                     &none  &none  &none    &kp SPACE  &mo 3  &mo 2
+&none  &none  &none  &none  &none  &none    &kp G        &kp I  &kp N  &kp D  &kp F  &kp ESCAPE
+&none  &none  &none  &none  &none  &none    &kp O        &kp E  &kp H  &kp T  &kp S  &lt 4 BACKSPACE
+&none  &none  &none  &none  &none  &none    &kp U        &kp A  &kp R  &kp W  &kp C  &kp RIGHT_SHIFT
+                     &none  &none  &none    &lt 1 SPACE  &mo 3  &mo 2
             >;
         };
 
@@ -80,9 +80,9 @@
 
         navigation {
             bindings = <
-&none  &none  &none  &none  &none  &none    &kp C_REWIND       &kp HOME        &kp UP_ARROW    &kp END          &kp C_FAST_FORWARD  &bt BT_CLR
-&none  &none  &none  &none  &none  &none    &kp DELETE         &kp LEFT_ARROW  &kp DOWN        &kp RIGHT_ARROW  &kp LC(LA(TAB))     &trans
-&none  &none  &none  &none  &none  &none    &kp LEFT_ALT       &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)           &bt BT_NXT
+&none  &none  &none  &none  &none  &none    &kp PAGE_UP        &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_DOWN    &bt BT_CLR
+&none  &none  &none  &none  &none  &none    &kp DELETE         &kp LEFT_ARROW  &kp DOWN        &kp RIGHT_ARROW  &kp LC(LA(TAB))  &trans
+&none  &none  &none  &none  &none  &none    &kp LEFT_ALT       &kp LC(V)       &kp LC(C)       &kp LC(X)        &kp LC(Z)        &bt BT_NXT
                      &none  &none  &none    &kp LC(BACKSPACE)  &kp LCTRL       &kp LEFT_SHIFT
             >;
 
