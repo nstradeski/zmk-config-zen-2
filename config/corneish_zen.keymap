@@ -116,16 +116,10 @@
             layers = <0>;
         };
 
-        bluetooth_layer_on {
-            bindings = <&tog 6>;
+        bluetooth_layer {
+            bindings = <&sl 6>;
             key-positions = <39 40 41>;
             layers = <0>;
-        };
-
-        blutooth_layer_off {
-            bindings = <&tog 0>;
-            key-positions = <39 41 40>;
-            layers = <6>;
         };
     };
 
@@ -218,10 +212,10 @@
 
         bluetooth {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &bt BT_CLR    &bt BT_SEL 4  &bt BT_SEL 3
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0
-                     &none  &none  &none    &none  &none  &none
+&none  &none  &none  &none  &none  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&none  &none  &none  &none  &none  &none    &none         &none         &none         &none         &none         &none
+&none  &none  &none  &none  &none  &none    &none         &none         &none         &none         &none         &none
+                     &none  &none  &none    &none         &none         &none
             >;
 
             label = "BT";
