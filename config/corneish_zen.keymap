@@ -116,9 +116,16 @@
             layers = <0>;
         };
 
-        bluetooth {
-            bindings = <&mo 6>;
+        bluetooth_layer_on {
+            bindings = <&tog 6>;
             key-positions = <39 40 41>;
+            layers = <0>;
+        };
+
+        blutooth_layer_off {
+            bindings = <&tog 0>;
+            key-positions = <39 41 40>;
+            layers = <6>;
         };
     };
 
